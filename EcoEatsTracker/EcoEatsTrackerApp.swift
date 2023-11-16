@@ -195,3 +195,5 @@ struct WelcomePage_Previews: PreviewProvider {
         }
     }
 }
+
+}
