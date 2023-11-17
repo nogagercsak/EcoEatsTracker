@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		867F6F1B2B06CF6900AF510C /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F6F1A2B06CF6900AF510C /* LogInView.swift */; };
+		867F6F1D2B06D02E00AF510C /* Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F6F1C2B06D02E00AF510C /* Homepage.swift */; };
+		867F6F1F2B06D05100AF510C /* ProgressPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F6F1E2B06D05100AF510C /* ProgressPage.swift */; };
+		867F6F212B06D12A00AF510C /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F6F202B06D12A00AF510C /* WelcomePage.swift */; };
 		D211E2BF2B01379C00DE1413 /* EcoEatsTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D211E2BE2B01379C00DE1413 /* EcoEatsTrackerApp.swift */; };
 		D211E2C12B01379C00DE1413 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D211E2C02B01379C00DE1413 /* ContentView.swift */; };
 		D211E2C32B0137A000DE1413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D211E2C22B0137A000DE1413 /* Assets.xcassets */; };
@@ -16,12 +20,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		867F6F1A2B06CF6900AF510C /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		867F6F1C2B06D02E00AF510C /* Homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homepage.swift; sourceTree = "<group>"; };
+		867F6F1E2B06D05100AF510C /* ProgressPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressPage.swift; sourceTree = "<group>"; };
+		867F6F202B06D12A00AF510C /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
 		D211E2BB2B01379C00DE1413 /* EcoEatsTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoEatsTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D211E2BE2B01379C00DE1413 /* EcoEatsTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoEatsTrackerApp.swift; sourceTree = "<group>"; };
 		D211E2C02B01379C00DE1413 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D211E2C22B0137A000DE1413 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D211E2C52B0137A000DE1413 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F455E6442B029E6A00BBC111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F455E6462B029F8A00BBC111 /* RadioCanada-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RadioCanada-Regular.ttf"; sourceTree = "<group>"; };
 		F455E6482B029F9400BBC111 /* SeoulHangang.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SeoulHangang.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -40,6 +47,12 @@
 		D211E2B22B01379B00DE1413 = {
 			isa = PBXGroup;
 			children = (
+				867F6F202B06D12A00AF510C /* WelcomePage.swift */,
+				867F6F1E2B06D05100AF510C /* ProgressPage.swift */,
+				867F6F1C2B06D02E00AF510C /* Homepage.swift */,
+				D211E2C02B01379C00DE1413 /* ContentView.swift */,
+				D211E2BE2B01379C00DE1413 /* EcoEatsTrackerApp.swift */,
+				867F6F1A2B06CF6900AF510C /* LogInView.swift */,
 				D211E2BD2B01379C00DE1413 /* EcoEatsTracker */,
 				D211E2BC2B01379C00DE1413 /* Products */,
 			);
@@ -57,9 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				F455E6452B029F7000BBC111 /* Fonts */,
-				F455E6442B029E6A00BBC111 /* Info.plist */,
-				D211E2BE2B01379C00DE1413 /* EcoEatsTrackerApp.swift */,
-				D211E2C02B01379C00DE1413 /* ContentView.swift */,
 				D211E2C22B0137A000DE1413 /* Assets.xcassets */,
 				D211E2C42B0137A000DE1413 /* Preview Content */,
 			);
@@ -118,7 +128,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D211E2B62B01379B00DE1413 /* Build configuration list for PBXProject "EcoEatsTracker" */;
+			buildConfigurationList = D211E2B62B01379B00DE1413 /* Build configuration list for PBXProject "Info.plist" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -155,8 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				867F6F1B2B06CF6900AF510C /* LogInView.swift in Sources */,
+				867F6F1F2B06D05100AF510C /* ProgressPage.swift in Sources */,
 				D211E2C12B01379C00DE1413 /* ContentView.swift in Sources */,
+				867F6F212B06D12A00AF510C /* WelcomePage.swift in Sources */,
 				D211E2BF2B01379C00DE1413 /* EcoEatsTrackerApp.swift in Sources */,
+				867F6F1D2B06D02E00AF510C /* Homepage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +357,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D211E2B62B01379B00DE1413 /* Build configuration list for PBXProject "EcoEatsTracker" */ = {
+		D211E2B62B01379B00DE1413 /* Build configuration list for PBXProject "Info.plist" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D211E2C72B0137A000DE1413 /* Debug */,
